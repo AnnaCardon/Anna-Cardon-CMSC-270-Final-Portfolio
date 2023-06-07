@@ -1,0 +1,27 @@
+/* your implementation
+        int new_pop;
+        std::vector<int>cum; //cumulative fitness
+        double cNum = 0;
+        double totalF = 0; // total fittness
+        double prop = 0;
+        while (new_pop < popsize) {
+            //popsize = rand();
+            for (int i = 0; i < popsize; i++){ //calculate cumulative fitness
+ 		        totalF += pop[i]->getScore(); //assign and add the pop score in var totalF
+ 		            if (i = 0){
+                        cNum = pop[i]->getScore(); //assign the score to cNum and put into cum vector at index
+                        cum[i] = cNum; //put the value of cNum into the inedx of cum vector
+                    }else{
+                        cNum = cum[i-1] + pop[i]->getScore(); //add past score to new one coming in
+                        cum[i]= cNum; //put into cumulative vector
+                    }
+                
+ 	            }
+
+        }*/
+        
+I had initially tried to code the roullete selction for the hackathon. I took notes on the reading and inclass. Tried to write
+it as sudo code first and then implement it. I asked questions and edited and modified. In the end I did not finishing the code
+and instead did the tournanment selection. This was not a complete failure since I really did try to do the roullete selection
+and took multiple steps. In the end it was too hard. I got stuck on passing the right objects to the right places, I couldn't 
+wrap my head around it.
