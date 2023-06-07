@@ -14,6 +14,7 @@ _Replace each "POE#" with the actual item you are including_
 ### L2: Artificial Life as a Field
 
 - [ ] Perusall Reading (written in file)
+- [ ] Perusall Reading 2 (written in file)
 
 ### L3: Computational Collaboration
 
